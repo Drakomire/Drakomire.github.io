@@ -2,48 +2,47 @@ body{
   background-color: #FFFFFF;
   color: #000000;
   font-family: "Jost", sans-serif;
+  margin: 0px;
 }
 a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
-.ribbon{
-  background-color: #404163;
-  color: #FFFFFF;
-  margin: 0px;
-  border: 0px;
-  padding: 60px 200px 60px 200px;
-  position: relative;
-}
-img{
-  float:left;
-}
 
 .body{
   font-size: 24px;
   width: 800px;
-  padding-top: 50px;
   margin: auto;
 
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #404163;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  position: sticky;
 }
 
 li {
+  margin: 0px;
   float: left;
 }
-
+.navigation {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  margin: 0px;
+  padding: 0px;
+  top: 0;
+}
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
+  margin: 0px;
   text-decoration: none;
 }
 
